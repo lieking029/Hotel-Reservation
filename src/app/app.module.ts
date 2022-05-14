@@ -10,6 +10,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { HotelComponent } from './pages/hotel/hotel.component';
 import { CardItemComponent } from './core/card-item/card-item.component';
+import { ReservationsComponent } from './pages/reservations/reservations.component';
+import { EditComponent } from './pages/edit/edit.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { CardItemComponent } from './core/card-item/card-item.component';
     AboutComponent,
     HotelComponent,
     CardItemComponent,
+    ReservationsComponent,
+    EditComponent,
    
   ],
   imports: [

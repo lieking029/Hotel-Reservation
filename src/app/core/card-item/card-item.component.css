@@ -7,6 +7,24 @@
   width: 29%;
 }
 
+
+
+.image__text {
+position: relative;
+}
+
+.image__text .card__type {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+
+}
+
   .cards__item__pic-wrap {
     position: relative;
     width: 100%;
