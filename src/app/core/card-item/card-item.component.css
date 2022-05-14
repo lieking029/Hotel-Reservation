@@ -1,0 +1,22 @@
+.img-hotel {
+  height: 10px;
+}
+
+.card__width {
+  height: 100%;
+  width: 29%;
+}
+
+  .cards__item__pic-wrap {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .cards__item__img {
+    transition: all 0.2s linear;
+  }
+
+  .cards__item__img:hover {
+    transform: scale(1.1);
+  }
